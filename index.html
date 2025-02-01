@@ -7,9 +7,19 @@
     <!-- Font Awesome Cdn -->
     <script src="https://kit.fontawesome.com/c683f73578.js" crossorigin="anonymous"></script>
 
+    <!-- Google Font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
     <!-- tailwind + DaisyUi Cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            font-family: "Sora", serif;
+        }
+    </style>
 </head>
 <body>
     <!-- Header Section -->
@@ -62,7 +72,27 @@
 
     <!-- Main Section -->
     <main>
-        
+        <!-- Services Section -->
+        <section class="max-w-6xl mx-auto mt-12">
+            <h1 class="text-[#179800] font-bold mb-4 ml-4 lg:ml-0">Services</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-4 lg:p-0 gap-5 text-center">
+                <div class="bg-[#EFEBE3] rounded-xl p-4">
+                    <img class="mx-auto" src="c2-assets/service.png" alt="">
+                    <h1 class="font-bold">24/7 Services </h1>
+                    <p class="opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <div class="bg-[#EFEBE3] rounded-xl p-4">
+                    <img class="mx-auto" src="c2-assets/delivery.png" alt="">
+                    <h1 class="font-bold">Fast Delivery</h1>
+                    <p class="opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <div class="bg-[#EFEBE3] rounded-xl p-4">
+                    <img class="mx-auto" src="c2-assets/healthy.png" alt="">
+                    <h1 class="font-bold">Healthy Products </h1>
+                    <p class="opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+           </div>
+        </section>
 
     </main>
     <!-- Footer Section -->
